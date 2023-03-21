@@ -37,7 +37,7 @@ function Donor() {
                     <li className='zoom'>Home</li>
                     <li className='zoom'> Login</li>
                     <li className='zoom'> SignUp </li>
-                    <li className='zoom' ><div nClick={() => contact()}>Customer Service</div></li>
+                    <li className='zoom' ><div onClick={() => contact()}>Customer Service</div></li>
                 </nav>
                 <div className="main-container">
                     <div className="context-bx">
