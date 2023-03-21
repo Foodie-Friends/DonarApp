@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/DonarApp/static/media/grey.1bc720c6.jpg"
   },
   {
-    "revision": "85133e624066d6f4a33acd1dbde1c4c7",
+    "revision": "7d3401d03b109041f7076ab6768190f8",
     "url": "/DonarApp/index.html"
   }
 ];
