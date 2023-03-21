@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/DonarApp/precache-manifest.02a997ee4ebe8f4c1deacac7c0196a82.js"
+  "/DonarApp/Login/precache-manifest.e67fed92ccabeb0ca0ab20525c2a2056.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/DonarApp/index.html", {
+workbox.routing.registerNavigationRoute("/DonarApp/Login/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
