@@ -1,7 +1,7 @@
 {
   "main.css": "/DonarApp/static/css/main.8090ac2a.chunk.css",
-  "main.js": "/DonarApp/static/js/main.f5f1adf8.chunk.js",
-  "main.js.map": "/DonarApp/static/js/main.f5f1adf8.chunk.js.map",
+  "main.js": "/DonarApp/static/js/main.24e24069.chunk.js",
+  "main.js.map": "/DonarApp/static/js/main.24e24069.chunk.js.map",
   "static/js/1.692a8372.chunk.js": "/DonarApp/static/js/1.692a8372.chunk.js",
   "static/js/1.692a8372.chunk.js.map": "/DonarApp/static/js/1.692a8372.chunk.js.map",
   "static/js/2.0196815c.chunk.js": "/DonarApp/static/js/2.0196815c.chunk.js",
@@ -13,6 +13,6 @@
   "static/media/Donor.css": "/DonarApp/static/media/grey.1bc720c6.jpg",
   "static/css/main.8090ac2a.chunk.css.map": "/DonarApp/static/css/main.8090ac2a.chunk.css.map",
   "index.html": "/DonarApp/index.html",
-  "precache-manifest.4a6ba0ffd16098db406875337a57d78a.js": "/DonarApp/precache-manifest.4a6ba0ffd16098db406875337a57d78a.js",
+  "precache-manifest.3579545d1e3f1d1966af0a14ab009eab.js": "/DonarApp/precache-manifest.3579545d1e3f1d1966af0a14ab009eab.js",
   "service-worker.js": "/DonarApp/service-worker.js"
 }
