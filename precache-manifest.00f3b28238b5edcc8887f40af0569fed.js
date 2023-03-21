@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5e7b938a0200eafc7004",
+    "revision": "6db257583864358efa00",
     "url": "/DonarApp/static/css/main.8090ac2a.chunk.css"
   },
   {
-    "revision": "5e7b938a0200eafc7004",
-    "url": "/DonarApp/static/js/main.5e7b938a.chunk.js"
+    "revision": "6db257583864358efa00",
+    "url": "/DonarApp/static/js/main.6db25758.chunk.js"
   },
   {
     "revision": "692a8372bce424561495",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/DonarApp/static/media/grey.1bc720c6.jpg"
   },
   {
-    "revision": "56fa5f14d40f20ae9e94771c927b2a3a",
+    "revision": "85133e624066d6f4a33acd1dbde1c4c7",
     "url": "/DonarApp/index.html"
   }
 ];
