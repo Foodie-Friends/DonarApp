@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/DonarApp/precache-manifest.043abde75ea80711c0c2ffa1300691f1.js"
+  "/DonarApp/precache-manifest.035604d76806dd1ebf27f943f1572049.js"
 );
 
 workbox.clientsClaim();
