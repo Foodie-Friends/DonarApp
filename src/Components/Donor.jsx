@@ -3,12 +3,14 @@ import io from "socket.io-client";
 import "./Donor.css"
 import Dish from "./dish1.png"
 import Logo from './logo.png'
+import { useNavigate } from 'react-router-dom'
 const newSocket = io.connect('https://foodiefriends.azurewebsites.net:443', {
     pingInterval: 10000,  // send a ping message every 10 seconds
     pingTimeout: 5000,    // wait for a pong message for up to 5 seconds
 });
 
 function Donor() {
+    const navigate = useNavigate()
     const [name, setName] = useState('');
     const [servings, setServings] = useState(0);
     const [location, setLocation] = useState();
@@ -20,9 +22,11 @@ function Donor() {
     }
 
 
-    const handleDonate = () => {
+    const handleDonate = (e) => {
+        e.preventDefault()
         newSocket.emit("donate", { Name: name, servings: servings, Location: location, Phone: Phone, Category1: Category1, Category2: Category2 });
         alert("Thankyou")
+        navigate("/Donar")
     };
 
     return (
@@ -30,10 +34,10 @@ function Donor() {
             <header >
                 <nav className='navbar'>
                     <img src={Logo} alt="" className="brand" />
-                    <li className='zoom'><a href="index.html" >Home</a></li>
-                    <li className='zoom'><a href="#">Login</a></li>
-                    <li className='zoom'><a href="#">SignUp </a></li>
-                    <li className='zoom'><a href="#" onClick={() => contact()}>Customer Service</a></li>
+                    <li className='zoom'>Home</li>
+                    <li className='zoom'> Login</li>
+                    <li className='zoom'> SignUp </li>
+                    <li className='zoom' ><div nClick={() => contact()}>Customer Service</div></li>
                 </nav>
                 <div className="main-container">
                     <div className="context-bx">
@@ -74,7 +78,7 @@ function Donor() {
                                     </div>
                                 </fieldset>
                             </div>
-                            <button className="Donate-btn" onClick={() => handleDonate()}>Donate now</button>
+                            <button className="Donate-btn" onClick={(e) => handleDonate(e)}>Donate now</button>
 
                         </form>
 
